@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--加号中item的点击选择器   OverFlowHelp 中的选项点击选择器-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <item android:drawable="@color/android_menu_press_color" android:state_pressed="true" />
+    <item android:drawable="@color/android_menu_color" android:state_focused="true" />
+    <item android:drawable="@color/android_menu_color" />
+</selector>

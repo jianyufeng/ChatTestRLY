@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/red_btn_color_normal</color>
+    <color name="colorAccent">@color/red_btn_color_normal</color>
+
+    <!--ec press dialog-->
+    <color name="text_content">#ffa19d94</color>
+    <!--ec alertDialog-->
+    <color name="dialog_background">#fffbf6f2</color>
+    <color name="dialog_divider">#ffe8e0da</color>
+    <color name="dialog_btn_press">#ffece5df</color>
+    <color name="dialog_btn_normal">#fffbf6f2</color>
+    <color name="text_title">#ff5f5f5f</color>
+    <!--ec list dialog-->
+    <color name="devideline_listview">#ffe5e2d4</color>
+    <color name="dialog_item_press">#ffece5df</color>
+    <!--topBar overflow -->
+    <color name="text_disabled">#ffa8a8a8</color>
+
+    <!--创建群组 选择群组图像的popwind-->
+    <color name="select_pic_default">#ffffffff</color>
+    <color name="select_pic_press">#Afffffff</color>
+
+    <!--app all color_39-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="android_edit_text_color">#c6c6cd</color>
+    <color name="android_group_bg_color">#f6f6f6</color>
+    <color name="android_bg_color">#f8f8f8</color>
+    <color name="android_contents_color">#000000</color>
+    <color name="android_ciyao_text_color">#929292</color>
+    <color name="android_divider_color">#e9e9e9</color>
+    <color name="red_btn_color_normal">#f03791</color>
+    <color name="red_btn_color_pressed">#c92172</color>
+
+    <color name="android_hong_color">#ff5f5e</color>
+    <color name="android_bai_color">#ffffffff</color>
+    <color name="android_menu_color">#49494a</color>
+    <color name="android_menu_press_color">#363535</color>
+    <color name="main_color">#f03791</color>
+    <!--透明的黑-->
+    <color name="t_black">#AF000000</color>
+
+</resources>

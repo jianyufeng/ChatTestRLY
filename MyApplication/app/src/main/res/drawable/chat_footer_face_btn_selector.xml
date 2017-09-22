@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 聊天界面底部视图的  表情的选择器 -->
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/chat_footer_face_btn_pressed" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/chat_footer_face_btn_pressed" />
+    <item android:state_focused="true" android:drawable="@drawable/chat_footer_face_btn_pressed" />
+    <item android:drawable="@drawable/chat_footer_face_btn_normal" />
+</selector>

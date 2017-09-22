@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ptr="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.fule.myapplication.group.utilis.test2.RecycleRefreshAndLoadLayout
+        android:id="@+id/recycle_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.fule.myapplication.group.utilis.test2.ExpandRecyclerView
+                android:id="@+id/recycle_view_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <include layout="@layout/layout_empty_view"
+                     android:id="@+id/id_empty_view"/>
+        </RelativeLayout>
+        <!--<com.fule.myapplication.group.utilis.test2.EmptyRecyclerView-->
+            <!--android:id="@+id/recycle_view_id"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--/>-->
+        <!--<include layout="@layout/layout_empty_view"-->
+                 <!--android:id="@+id/id_empty_view"/>-->
+    </com.fule.myapplication.group.utilis.test2.RecycleRefreshAndLoadLayout>
+
+    <!--下面就是PullToRefresh控件-->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:visibility="gone"
+        android:elevation="10dp"
+        android:id="@+id/userDefinedList_pull_refresh_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#19000000"
+        android:dividerHeight="2dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:smoothScrollbar="true"
+        ptr:ptrDrawable="@mipmap/ic_launcher"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrMode="both"
+        ptr:ptrHeaderBackground="@android:color/darker_gray"
+        ptr:ptrListViewExtrasEnabled="true"
+        ptr:ptrShowIndicator="true"
+        android:outlineProvider="bounds"
+        android:translationZ="10dp"
+        ptr:ptrHeaderTextColor="#000000"/>
+    <!--ptr:ptrDrawable=“” 上拉下拉图标-->
+    <!--ptr:ptrAnimationStyle=""  图标动画  取值： flip:翻转 rotate旋转-->
+    <!--ptr:ptrHeaderBackground=""  上拉下拉时 头部的背景色-->
+    <!--ptr:ptrShowIndicator=""  显示指示箭头-->
+    <!--ptr:ptrHeaderTextColor=""     上拉下拉时 文字颜色-->
+    <!--ptr:ptrListViewExtrasEnabled="true" 就是滚动时刷新头部会一起滚动。-->
+    <!--ptr:ptrRefreshableViewBackground 设置整个mPullRefreshListView的背景色-->
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/empty_conversation_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="暂无数据"
+        android:visibility="gone"/>
+</LinearLayout>

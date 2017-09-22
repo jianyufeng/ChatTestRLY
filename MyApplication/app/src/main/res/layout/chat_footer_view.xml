@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:minHeight="@dimen/ChattingFootViewMinHeigh"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/chatting_mode_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@null"
+            android:src="@drawable/chat_footer_voice_btn_selector"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:maxHeight="@dimen/ChattingFootEditMaxHeigh"
+            android:minHeight="@dimen/ChattingFootEditMinHeigh"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:text="时间合适的高手够速度与"/>
+
+        <ImageButton
+            android:id="@+id/chatting_smiley_btn"
+            android:layout_width="@dimen/ChattingFootSendHeight"
+            android:layout_height="@dimen/ChattingFootSendHeight"
+            android:layout_margin="8dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/chat_footer_face_btn_selector"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

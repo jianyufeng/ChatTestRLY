@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/message_layout_mask"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="49dp"
+    android:background="#fffde1b6"
+    android:gravity="center"
+    android:visibility="gone"
+    >
+    <ImageView
+        android:id="@+id/layout_mask_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/chat_newmsg_alram"/>
+
+    <TextView
+        android:id="@+id/layout_mask_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="20.0dip"
+        android:text="新消息到达,点击查看"
+        android:textColor="#ffb8956b"
+        android:textSize="16.0sp"/>
+</LinearLayout>

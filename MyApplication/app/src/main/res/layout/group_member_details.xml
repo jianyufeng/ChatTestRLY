@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:setts="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.fule.myapplication.group.memberDetails.GroupMemberDetailsSettingItem
+        android:id="@+id/member_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/android_width_40"
+        setts:item_LabelString="fsddfs"
+        setts:item_LevelString="等级"
+        setts:item_ManagerString="管理"
+        setts:item_rightTextString="fdffsd"
+        setts:item_showDividerFlag="false"
+        setts:item_showLabel="true"
+        setts:item_showLevel="true"
+        setts:item_showManager="true"
+        setts:item_showNextPageFlag="true"
+        setts:item_showQrcode="true"/>
+
+    <com.fule.myapplication.group.groupDetails.GroupDetailsSettingItem
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/android_width_40"
+        android:minHeight="48dp"
+        setts:item_showDivider="true"
+        setts:item_showNextPage="true"
+        setts:item_showRightImage="false"
+        setts:item_titleText="@string/group_member_label"
+        />
+
+    <com.fule.myapplication.group.groupDetails.GroupDetailsSettingItem
+        android:id="@+id/group_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/android_width_40"
+        android:minHeight="48dp"
+        setts:item_rightText="西安"
+        setts:item_showDivider="true"
+        setts:item_showNextPage="false"
+        setts:item_showRightImage="false"
+        setts:item_titleText="@string/group_member_location"
+        />
+
+    <com.fule.myapplication.group.groupDetails.GroupDetailsSettingItem
+        android:id="@+id/group_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/android_width_40"
+        android:minHeight="48dp"
+        setts:item_rightText="分大幅度发多少范德萨发发呆时发送防守打法是否是大多数"
+        setts:item_showDivider="true"
+        setts:item_showNextPage="true"
+        setts:item_showRightImage="false"
+        setts:item_titleText="@string/group_member_sign"
+        />
+
+    <Button
+        android:id="@+id/group_dissolve"
+        style="@style/common_btn"
+        android:layout_marginTop="@dimen/android_width_40"
+        android:background="@drawable/btn_style_confirm"
+        android:elevation="20dp"
+        android:text="@string/group_dissolve"
+        />
+
+
+</LinearLayout>

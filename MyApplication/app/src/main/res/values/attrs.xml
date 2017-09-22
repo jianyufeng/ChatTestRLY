@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--群组详情的设置View的抽取使用自定义属性-->
+    <declare-styleable name="setting_info">
+        <attr name="item_titleText" format="string" />
+        <attr name="item_rightText" format="string" />
+        <!--<attr name="item_detailText" format="string" />-->
+        <attr name="item_accessoryType">
+            <enum name="none" value="0" />
+            <enum name="arrow" value="1" />
+            <enum name="switchbutton" value="2" />
+            <enum name="radio" value="3" />
+        </attr>
+        <attr name="item_showDivider" format="boolean" />
+        <attr name="item_showNextPage" format="boolean" />
+        <attr name="item_showRightImage" format="boolean" />
+
+    </declare-styleable>
+    <!--群组成员详情的设置图像-->
+    <declare-styleable name="setting_icon">
+        <attr name="item_rightTextString" format="string" />
+        <attr name="item_LevelString" format="string" />
+        <attr name="item_ManagerString" format="string" />
+        <attr name="item_LabelString" format="string" />
+        <attr name="item_showLabel" format="boolean" />
+        <attr name="item_showDividerFlag" format="boolean" />
+        <attr name="item_showLevel" format="boolean" />
+        <attr name="item_showManager" format="boolean" />
+        <attr name="item_showNextPageFlag" format="boolean" />
+        <attr name="item_showQrcode" format="boolean" />
+
+    </declare-styleable>
+</resources>

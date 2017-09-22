@@ -1,0 +1,101 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--聊天-->
+    <dimen name="ChattingFootViewMinHeigh">48.0dip</dimen>
+    <dimen name="ChattingFootEditMaxHeigh">80.0dip</dimen>
+    <dimen name="ChattingFootEditMinHeigh">28.0dip</dimen>
+    <dimen name="ChattingFootSendHeight">32.0dp</dimen>
+    <!--ECsupeerActivity-->
+    <dimen name="topbar_height">52.0dip</dimen>
+    <dimen name="btn_topbar_layout_minwidth">80.0dip</dimen>
+    <dimen name="btn_topbar_minwidth">58.0dip</dimen>
+    <dimen name="btn_topbar_marginHorizontal">10.0dip</dimen>
+    <dimen name="SmallButtonHeight">32.0dip</dimen>
+    <dimen name="btn_topbar_paddingHorizontal">10.0dip</dimen>
+    <dimen name="BigTextSize">17.0dip</dimen>
+    <!--ec alert Dialog-->
+    <dimen name="MinDialogWidth">320.0dip</dimen>
+    <dimen name="dialog_padding">15.0dip</dimen>
+    <dimen name="dialog_round_radius">4.0dip</dimen>
+    <!--ec list dialog-->
+    <dimen name="text_list_title">16.0sp</dimen>
+
+    <!--群组详情成员列表-->
+    <dimen name="group_details_member_item_left_padding">20dp</dimen>
+    <dimen name="group_details_member_item_bottom_padding">10dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+    <!--zui xin de sixe-->
+    <dimen name="android_width_86">48dip</dimen>
+    <dimen name="android_width_108">60dip</dimen>
+    <dimen name="android_width_101">56dip</dimen>
+    <dimen name="android_width_138">77dip</dimen>
+    <dimen name="android_width_90">50dip</dimen>
+    <dimen name="android_width_92">52dip</dimen>
+    <dimen name="android_width_56">30dip</dimen>
+    <dimen name="android_width_58">35dip</dimen>
+    <dimen name="android_width_72">40dip</dimen>
+    <dimen name="android_width_78">44dip</dimen>
+    <dimen name="android_width_20">11dip</dimen>
+    <dimen name="android_width_18">10dip</dimen>
+    <dimen name="android_width_190">107dip</dimen>
+    <dimen name="android_width_250">140dip</dimen>
+    <dimen name="android_width_455">255dip</dimen>
+    <dimen name="android_width_210">118dip</dimen>
+    <dimen name="android_width_240">134dip</dimen>
+    <dimen name="android_width_24">13dip</dimen>
+    <dimen name="android_width_235">131dip</dimen>
+    <dimen name="android_width_276">155dip</dimen>
+    <dimen name="android_width_40">22dip</dimen>
+    <dimen name="android_width_46">26dip</dimen>
+    <dimen name="android_width_65">36dip</dimen>
+    <dimen name="android_width_88">49dip</dimen>
+    <dimen name="android_width_178">99dip</dimen>
+    <dimen name="android_width_160">90dip</dimen>
+    <dimen name="android_width_164">92dip</dimen>
+    <dimen name="android_width_110">61dip</dimen>
+    <dimen name="android_width_26">15dip</dimen>
+    <dimen name="android_width_28">16dip</dimen>
+    <dimen name="android_width_25">14dip</dimen>
+    <dimen name="android_width_30">16dip</dimen>
+    <dimen name="android_width_60">33dip</dimen>
+    <dimen name="android_width_10">5dip</dimen>
+    <dimen name="android_width_12">6dip</dimen>
+    <dimen name="android_width_120">67dip</dimen>
+    <dimen name="android_width_14">7dip</dimen>
+    <dimen name="android_width_146">82dip</dimen>
+    <dimen name="android_width_8">4dip</dimen>
+    <dimen name="android_width_5">3dip</dimen>
+    <dimen name="android_width_3">2dip</dimen>
+    <dimen name="android_width_22">12dip</dimen>
+    <dimen name="android_width_36">20dip</dimen>
+    <dimen name="android_width_33">18dip</dimen>
+    <dimen name="android_width_330">180dip</dimen>
+    <dimen name="android_width_38">21dip</dimen>
+    <dimen name="android_width_380">210dip</dimen>
+    <dimen name="android_width_50">28dip</dimen>
+    <dimen name="android_width_500">280dip</dimen>
+    <dimen name="android_width_15">8dip</dimen>
+    <dimen name="android_width_150">84dip</dimen>
+    <dimen name="android_divider_width">2px</dimen>
+    <!--text size-->
+    <dimen name="android_text_size_14">14sp</dimen>
+    <dimen name="android_text_size_16">16sp</dimen>
+    <dimen name="android_text_size_8">5sp</dimen>
+    <dimen name="android_text_size_12">12sp</dimen>
+    <dimen name="android_text_size_18">18sp</dimen>
+    <dimen name="android_text_size_10">10sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

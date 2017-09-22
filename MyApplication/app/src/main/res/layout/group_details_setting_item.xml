@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--群组设置项的集合  抽取的View 类 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:baselineAligned="false"
+              android:gravity="center_vertical"
+              android:minHeight="49dp"
+              android:background="@drawable/btn_style_confirm"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/android_width_20"
+              android:paddingRight="@dimen/android_width_20">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                tools:text="群组"
+                android:id="@android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:duplicateParentState="true" >
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:maxWidth="@dimen/android_width_178"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:id="@+id/text_tv_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    tools:text="string/app_name"/>
+                <ImageView
+                    android:layout_marginTop="@dimen/android_width_10"
+                    android:layout_marginBottom="@dimen/android_width_10"
+                    android:scaleType="fitXY"
+                    android:id="@+id/right_image"
+                    android:visibility="gone"
+                    android:src="@drawable/group_default_icon"
+                    android:layout_width="@dimen/android_width_108"
+                    android:layout_height="@dimen/android_width_108"
+                   />
+
+                <ImageView
+                    android:id="@+id/next_page"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="@dimen/android_width_20"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/next_page_icon"/>
+            </LinearLayout>
+
+            <CheckedTextView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/accessory_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

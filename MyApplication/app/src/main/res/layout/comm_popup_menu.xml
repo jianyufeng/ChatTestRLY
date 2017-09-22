@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 使用popWindow的布局 是右上角点击加号的容器-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/android_menu_color"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/android_width_28"
+              android:paddingRight="@dimen/android_width_28">
+    <!--android:background="@drawable/android_overflow_menu_bg"-->
+
+    <com.fule.myapplication.common.superActivity.ui.overFlorw.PopupMenuListView
+        android:id="@+id/comm_popup_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/android_ciyao_text_color"
+        android:dividerHeight="1px"
+        android:listSelector="@android:color/transparent"/>
+</LinearLayout>

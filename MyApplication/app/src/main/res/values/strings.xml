@@ -1,0 +1,41 @@
+<resources>
+    <!--聊天-->
+    <string name="app_name">TestRongClod</string>
+    <string name="fmt_time_length">d%\"</string>
+
+    <!--ECSuperActiity-->
+    <string name="common_enter_activity">当前所在页面,</string>
+
+    <!--群组列表-->
+    <string name="group_number">%s个群组</string>
+    <string name="group_list_title">群组</string>
+    <string name="group_list_search_edit_title">搜索群组</string>
+    <string name="group_list_search_edit_hint">请输入群组id或群组名称</string>
+    <string name="group_list_create_group">创建群组</string>
+
+    <!--创建群组-->
+    <string name="create_group_inout_name">请输入群组名称</string>
+    <string name="create_group_confirm">提交</string>
+    <string name="create_group_edit">编辑群资料</string>
+
+    <!--群组详情-->
+    <string name="group_details_title">群组详情</string>
+    <string name="group_icon">群组头像</string>
+    <string name="group_name">群组名称</string>
+    <string name="group_declare">群组公告</string>
+    <string name="group_permission">加入权限设置</string>
+    <string name="group_msg_notice">消息免打扰</string>
+    <string name="group_clear_msg">清空聊天记录</string>
+    <string name="group_dissolve">解散群组</string>
+    <string name="group_quit">退出群组</string>
+    <!--群组成员详情-->
+    <string name="group_member_label">设置备注及标签</string>
+    <string name="group_member_location">地区</string>
+    <string name="group_member_sign">个性签名</string>
+
+    <!--dialog-->
+    <string name="loading_press">请稍候，正在提交...</string>
+    <string name="dialog_title_alert">提示</string>
+    <string name="dialog_btn_confim">确认</string>
+    <string name="dialog_btn_cancel">取消</string>
+</resources>

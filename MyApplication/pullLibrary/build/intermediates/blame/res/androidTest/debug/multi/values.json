@@ -1,0 +1,273 @@
+[
+    {
+        "outputFile": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1673,
+                    "endColumn": 63,
+                    "endOffset": 1732
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1673,
+                        "endColumn": 63,
+                        "endOffset": 1732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1737,
+                    "endColumn": 63,
+                    "endOffset": 1796
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1737,
+                        "endColumn": 63,
+                        "endOffset": 1796
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1801,
+                    "endColumn": 54,
+                    "endOffset": 1851
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1801,
+                        "endColumn": 54,
+                        "endOffset": 1851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1856,
+                    "endColumn": 56,
+                    "endOffset": 1908
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1856,
+                        "endColumn": 56,
+                        "endOffset": 1908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1913,
+                    "endColumn": 54,
+                    "endOffset": 1963
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1913,
+                        "endColumn": 54,
+                        "endOffset": 1963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1968,
+                    "endColumn": 37,
+                    "endOffset": 2001
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1968,
+                        "endColumn": 37,
+                        "endOffset": 2001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2006,
+                    "endColumn": 39,
+                    "endOffset": 2041
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2006,
+                        "endColumn": 39,
+                        "endOffset": 2041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2046,
+                    "endColumn": 36,
+                    "endOffset": 2078
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2046,
+                        "endColumn": 36,
+                        "endOffset": 2078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2083,
+                    "endColumn": 101,
+                    "endOffset": 2180
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2083,
+                        "endColumn": 101,
+                        "endOffset": 2180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2185,
+                    "endColumn": 113,
+                    "endOffset": 2294
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2185,
+                        "endColumn": 113,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2299,
+                    "endColumn": 107,
+                    "endOffset": 2402
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2299,
+                        "endColumn": 107,
+                        "endOffset": 2402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2407,
+                    "endColumn": 71,
+                    "endOffset": 2474
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2407,
+                        "endColumn": 71,
+                        "endOffset": 2474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2479,
+                    "endColumn": 69,
+                    "endOffset": 2544
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2479,
+                        "endColumn": 69,
+                        "endOffset": 2544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2549,
+                    "endColumn": 77,
+                    "endOffset": 2622
+                },
+                "from": {
+                    "file": "D:\\andorid_app\\MyApplication\\pullLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2549,
+                        "endColumn": 77,
+                        "endOffset": 2622
+                    }
+                }
+            }
+        ]
+    }
+]

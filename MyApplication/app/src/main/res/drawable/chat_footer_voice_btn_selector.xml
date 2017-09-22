@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--聊天界面底部视图的  语音选择器-->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/chat_footer_voice_btn_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/chat_footer_voice_btn_pressed" android:state_selected="true"/>
+    <item android:drawable="@drawable/chat_footer_voice_btn_normal"/>
+</selector>
